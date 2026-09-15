@@ -8,11 +8,11 @@ class FizzBuzz {
     public static void main(String[] args) {
         int i = 0;
         while (i <= 100) {
-            i = dozFizzBuzz(i);
+            i = doFizzBuzz(i);
         }
     }
 
-    private static int dozFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
